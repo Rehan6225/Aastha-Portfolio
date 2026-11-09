@@ -1,15 +1,15 @@
 {
-  "name": "Aastha Chauhan",
-  "firstName": "Aastha",
-  "pageTitle": "Aastha Chauhan | Law Student",
-  "metaDescription": "Aastha Chauhan is a BBA LLB student at Symbiosis Law School, Noida, with Supreme Court internships, national moot court wins and an interest in legal research and public policy.",
-  "photo": "/assets/headshot.jpg",
-  "heroLeft": "Law student at Symbiosis Law School, Noida",
+  "heroLeft": "Law student at Symbiosis Law School, Noid",
   "heroRight": "Judicial intern at the Supreme Court of India",
-  "cgpa": "8.52",
-  "mootWins": "2",
+  "pageTitle": "Aastha Chauhan | Law Student",
+  "name": "Aastha Chauhan",
+  "photo": "/assets/headshot.jpg",
   "bestMemorials": "2",
+  "cgpa": "8.52",
+  "location": "Noida, India",
+  "metaDescription": "Aastha Chauhan is a BBA LLB student at Symbiosis Law School, Noida, with Supreme Court internships, national moot court wins and an interest in legal research and public policy.",
+  "firstName": "Aastha",
   "email": "aastha.chauhan@symlaw.edu.in",
   "linkedin": "https://www.linkedin.com/in/aastha-chauhan-98bb952a2",
-  "location": "Noida, India"
+  "mootWins": "2"
 }
