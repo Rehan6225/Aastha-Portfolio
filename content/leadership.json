@@ -1,0 +1,16 @@
+{
+  "roles": [
+    { "title": "State President, Bihar Judicial Reforms", "organisation": "WICCI" },
+    { "title": "Campus Director, Millennium Fellowship", "organisation": "United Nations Academic Impact, SLS Noida" },
+    { "title": "Founder", "organisation": "ForYouCommunity" },
+    { "title": "Junior Researcher", "organisation": "The Geostrata, a youth-led think tank" },
+    { "title": "Content Writing Volunteer", "organisation": "CRY (Child Rights and You), Indirapuram PAG" },
+    { "title": "Mental Health Ambassador", "organisation": "Symbiosis Centre for Emotional Well-being, SLS Noida" }
+  ],
+  "campus": [
+    { "role": "Event Head, Symvogue", "year": "2026" },
+    { "role": "Discipline Committee, Symfiesta", "year": "2024" },
+    { "role": "Mashgool, Drama Society", "year": "2025 – Present" },
+    { "role": "Ecstasy, Dance Society", "year": "2023 – 2024" }
+  ]
+}

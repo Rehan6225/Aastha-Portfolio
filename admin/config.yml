@@ -1,0 +1,120 @@
+backend:
+  name: github
+  repo: Rehan6225/Aastha-Portfolio
+  branch: main
+  commit_messages:
+    update: "Update {{slug}} from admin"
+
+site_url: https://aasthachauhan.netlify.app
+display_url: https://aasthachauhan.netlify.app
+media_folder: assets
+public_folder: /assets
+publish_mode: simple
+
+collections:
+  - name: portfolio
+    label: Portfolio
+    editor: { preview: false }
+    delete: false
+    files:
+      - name: profile
+        label: Profile & contact
+        file: content/profile.json
+        fields:
+          - { label: Full name, name: name, widget: string }
+          - { label: First name (big heading), name: firstName, widget: string }
+          - { label: Photo, name: photo, widget: image }
+          - { label: Line beside photo (left), name: heroLeft, widget: string }
+          - { label: Line beside photo (right), name: heroRight, widget: string }
+          - { label: CGPA, name: cgpa, widget: string }
+          - { label: Number of moot wins, name: mootWins, widget: string }
+          - { label: Number of best memorials, name: bestMemorials, widget: string }
+          - { label: Email, name: email, widget: string }
+          - { label: LinkedIn link, name: linkedin, widget: string }
+          - { label: Location, name: location, widget: string }
+          - { label: Browser tab title, name: pageTitle, widget: string }
+          - { label: Google search description, name: metaDescription, widget: text }
+      - name: about
+        label: About
+        file: content/about.json
+        fields:
+          - { label: Handwritten greeting, name: greeting, widget: string }
+          - { label: Headline line 1, name: headlineLine1, widget: string }
+          - { label: Headline line 2, name: headlineLine2, widget: string }
+          - { label: Intro sentence, name: lead, widget: text }
+          - label: Paragraphs
+            name: paragraphs
+            widget: list
+            field: { label: Paragraph, name: paragraph, widget: text }
+          - label: Education
+            name: education
+            widget: list
+            summary: "{{fields.qualification}}"
+            fields:
+              - { label: Qualification, name: qualification, widget: string }
+              - { label: Institution, name: institution, widget: string }
+              - { label: University or board, name: board, widget: string, required: false }
+              - { label: Score, name: score, widget: string }
+      - name: experience
+        label: Experience
+        file: content/experience.json
+        fields:
+          - label: Experience (newest first)
+            name: items
+            widget: list
+            summary: "{{fields.date}}: {{fields.organisation}}"
+            fields:
+              - { label: Dates, name: date, widget: string }
+              - { label: Organisation or judge, name: organisation, widget: string }
+              - { label: Role and place, name: role, widget: string }
+              - { label: Description, name: description, widget: text }
+      - name: moots
+        label: Moot court
+        file: content/moots.json
+        fields:
+          - label: Competitions
+            name: items
+            widget: list
+            summary: "{{fields.competition}}"
+            fields:
+              - { label: Result, name: result, widget: string }
+              - { label: Competition, name: competition, widget: string }
+              - { label: Year and details, name: details, widget: string }
+          - { label: Note below the cards, name: note, widget: text }
+      - name: writing
+        label: Writing & certifications
+        file: content/writing.json
+        fields:
+          - label: Writing and research
+            name: works
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Type, name: type, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+          - label: Certifications
+            name: certifications
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Issued by, name: issuer, widget: string }
+      - name: leadership
+        label: Leadership & campus
+        file: content/leadership.json
+        fields:
+          - label: Leadership and service
+            name: roles
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Organisation, name: organisation, widget: string }
+          - label: On campus
+            name: campus
+            widget: list
+            summary: "{{fields.role}}"
+            fields:
+              - { label: Role, name: role, widget: string }
+              - { label: Year, name: year, widget: string }

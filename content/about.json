@@ -1,0 +1,15 @@
+{
+  "greeting": "Hey, I'm Aastha",
+  "headlineLine1": "Law student, researcher",
+  "headlineLine2": "and courtroom regular",
+  "lead": "I am drawn to the places where law meets people: legal research, public policy and socio-legal issues.",
+  "paragraphs": [
+    "I'm studying for a BBA LLB at Symbiosis Law School, Noida. My internships have taken me from the chambers of Supreme Court judges to the district court in Patna, and from commercial litigation to civil liberties fieldwork.",
+    "Along the way I have drafted petitions, briefed special leave matters and conducted ground interviews. I like work that is rigorous, evidence-led and useful."
+  ],
+  "education": [
+    { "qualification": "BBA LLB", "institution": "Symbiosis Law School, Noida", "board": "Symbiosis International University", "score": "8.52 / 10 CGPA" },
+    { "qualification": "Class XII, Humanities", "institution": "St. Joseph's Convent High School, Patna", "board": "ICS Board", "score": "95.75%" },
+    { "qualification": "Class X", "institution": "St. Joseph's Convent High School, Patna", "board": "ICSE Board", "score": "90.10%" }
+  ]
+}
