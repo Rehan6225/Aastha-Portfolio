@@ -8,8 +8,23 @@
     "Along the way I have drafted petitions, briefed special leave matters and conducted ground interviews. I like work that is rigorous, evidence-led and useful."
   ],
   "education": [
-    { "qualification": "BBA LLB", "institution": "Symbiosis Law School, Noida", "board": "Symbiosis International University", "score": "8.52 / 10 CGPA" },
-    { "qualification": "Class XII, Humanities", "institution": "St. Joseph's Convent High School, Patna", "board": "ICS Board", "score": "95.75%" },
-    { "qualification": "Class X", "institution": "St. Joseph's Convent High School, Patna", "board": "ICSE Board", "score": "90.10%" }
+    {
+      "qualification": "BBA LLB",
+      "institution": "Symbiosis Law School, Noida",
+      "board": "Symbiosis International University",
+      "score": "8.52 / 10 CGPA"
+    },
+    {
+      "qualification": "Class XII, Humanities",
+      "institution": "St. Joseph's Convent High School, Patna",
+      "board": "ISC Board",
+      "score": "95.75%"
+    },
+    {
+      "qualification": "Class X",
+      "institution": "St. Joseph's Convent High School, Patna",
+      "board": "ICSE Board",
+      "score": "90.10%"
+    }
   ]
 }
