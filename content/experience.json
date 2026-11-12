@@ -1,11 +1,46 @@
 {
   "items": [
-    { "date": "Oct 2026 – Present", "organisation": "Hon'ble Mr. Justice K.V. Viswanathan", "role": "Judicial Intern · Supreme Court of India", "description": "Preparing briefs on civil, criminal, transfer and special leave petitions, and assisting in the review of case records and court proceedings." },
-    { "date": "Sep 2026", "organisation": "National Human Rights Commission", "role": "Human Rights Intern · OSTI", "description": "Researched human rights violations and took part in expert sessions. Won the closing Declamation Competition for a presentation on the Rights of Persons with Disabilities." },
-    { "date": "Jul 2026", "organisation": "Hon'ble Mr. Justice Alok Aradhe", "role": "Judicial Intern · Supreme Court of India", "description": "Prepared notes on the facts and grounds of civil and criminal transfer petitions, briefed special leave petitions, and assisted in reviewing case records and court proceedings." },
-    { "date": "Nov – Dec 2025", "organisation": "Parinam Law Associates", "role": "Intern · New Delhi", "description": "Assisted in defamation and commercial litigation, with research on maintainability, jurisdiction and procedural compliance." },
-    { "date": "May – Jun 2025", "organisation": "Chambers of Sr. Adv. Pravin H. Parekh", "role": "Intern · New Delhi", "description": "Worked on maintainability of claims and counterclaims, compliance with pre-arbitral contractual mechanisms and procedural timelines. Received a letter of recommendation from Advocate Bibhuti Krishna for drafting various petitions." },
-    { "date": "Nov – Dec 2024", "organisation": "People's Union for Civil Liberties", "role": "Intern · Jaipur", "description": "Interned directly under National President Dr. Kavita Srivastava. Made court visits, attended seminars and protests, took ground interviews, conducted research and prepared short notes." },
-    { "date": "May – Jun 2024", "organisation": "Sr. Adv. Shashi Shekhar Dvivedi", "role": "Intern · Patna District Court", "description": "Assisted in drafting pleadings and applications in civil and criminal matters." }
+    {
+      "date": "Oct 2026",
+      "organisation": "Hon'ble Mr. Justice K.V. Viswanathan",
+      "role": "Judicial Intern · Supreme Court of India",
+      "description": "Preparing briefs on civil, criminal, transfer and special leave petitions, and assisting in the review of case records and court proceedings."
+    },
+    {
+      "date": "Sep 2026",
+      "organisation": "National Human Rights Commission",
+      "role": "Human Rights Intern · OSTI",
+      "description": "Researched human rights violations and took part in expert sessions. Won the closing Declamation Competition for a presentation on the Rights of Persons with Disabilities."
+    },
+    {
+      "date": "Jul 2026",
+      "organisation": "Hon'ble Mr. Justice Alok Aradhe",
+      "role": "Judicial Intern · Supreme Court of India",
+      "description": "Prepared notes on the facts and grounds of civil and criminal transfer petitions, briefed special leave petitions, and assisted in reviewing case records and court proceedings."
+    },
+    {
+      "date": "Nov – Dec 2025",
+      "organisation": "Parinam Law Associates",
+      "role": "Intern · New Delhi",
+      "description": "Assisted in defamation and commercial litigation, with research on maintainability, jurisdiction and procedural compliance."
+    },
+    {
+      "date": "May – Jun 2025",
+      "organisation": "Chambers of Sr. Adv. Pravin H. Parekh",
+      "role": "Intern · New Delhi",
+      "description": "Worked on maintainability of claims and counterclaims, compliance with pre-arbitral contractual mechanisms and procedural timelines. Received a letter of recommendation from Advocate Bibhuti Krishna for drafting various petitions."
+    },
+    {
+      "date": "Nov – Dec 2024",
+      "organisation": "People's Union for Civil Liberties",
+      "role": "Intern · Jaipur",
+      "description": "Interned directly under National President Dr. Kavita Srivastava. Made court visits, attended seminars and protests, took ground interviews, conducted research and prepared short notes."
+    },
+    {
+      "date": "May – Jun 2024",
+      "organisation": "Sr. Adv. Shashi Shekhar Dvivedi",
+      "role": "Intern · Patna District Court",
+      "description": "Assisted in drafting pleadings and applications in civil and criminal matters."
+    }
   ]
 }
